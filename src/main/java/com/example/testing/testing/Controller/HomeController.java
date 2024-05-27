@@ -19,5 +19,12 @@ public class HomeController {
 	{
 		return "This is Home Controller ok";
 	}
+
+
+	@RequestMapping("/back")
+	public String BackController()
+	{
+		return "Back to home page";
+	}
    
 }
