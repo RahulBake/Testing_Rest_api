@@ -17,7 +17,7 @@ public class HomeController {
 	@RequestMapping("/home")
 	public String homeController()
 	{
-		return "This is Home Controller";
+		return "This is Home Controller ok";
 	}
    
 }
